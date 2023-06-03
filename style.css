@@ -1,0 +1,28 @@
+h1 {
+   font-weight: bold;
+   font-size: 20px;
+   font-family: sans-serif;
+}
+
+.acces {
+    text-align:center;
+    background-color: #BEC7FE;
+    height: 150px;
+    width: 500px;
+    padding: 50px;
+}
+
+button {
+    background-color: #D7F6CF;
+    border-radius: 25px;
+    border-color: #D7F6CF;
+    height: 25px;
+    width: 150px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 30rem;
+    
+}

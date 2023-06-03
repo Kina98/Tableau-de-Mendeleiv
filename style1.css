@@ -1,0 +1,130 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aze {
+    text-align: center;
+    border-spacing: 5px;
+}
+p, h1{
+    margin: 0;
+}
+table tr td{
+    padding-top:15px ;
+    padding-bottom: 15px;
+}
+.couleur1 {
+    background: #8679B6;
+}
+.couleur2 {
+    background: #93D8C6;
+}
+.couleur3 {
+    background: #B5E0AE;
+}
+.couleur4 {
+    background: #EF9C83;
+}
+.couleur5 {
+    background: #F1CAA6;
+}
+.couleur6 {
+    background: #F2FAC9;
+}
+.couleur7 {
+    background: #FFEFC3;
+}
+.couleur8 {
+    background: #79B1D2;
+}
+.couleur9 {
+    background: #EB95A2;
+}
+.couleur10 {
+    background: #BD6790;
+}
+.vide {
+    height: 30px;
+}
+
+
+.image {
+    border-radius: 500px;
+    height: 100px;
+}
+.dmetri {
+    margin-left: 88%;
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 1595px) {
+      table tr td{
+          font-size: 14px; 
+        }
+}
+@media screen and (max-width: 1410px) {
+    table tr td{
+        font-size: 13px; 
+      }
+}
+@media screen and (max-width: 1315px) {
+    table tr td{
+        font-size: 12px; 
+      }
+}
+@media screen and (max-width: 1222px) {
+    table tr td{
+        font-size: 11px; 
+      }
+}
+@media screen and (max-width: 1131px) {
+    table tr td{
+        font-size: 10px; 
+      }
+}
+@media screen and (max-width: 1040px) {
+    table tr td{
+        font-size: 9px; 
+      }
+}
+@media screen and (max-width: 950px) {
+    table tr td{
+        font-size: 8px; 
+      }
+}
+@media screen and (max-width: 860px) {
+    table tr td{
+        font-size: 7px; 
+      }
+}
+@media screen and (max-width: 770px) {
+    table tr td{
+        font-size: 6px; 
+      }
+      .image {
+        border-radius: 500px;
+        height: 70px;
+    }
+}
+@media screen and (max-width: 680px) {
+    table tr td{
+        font-size: 5px; 
+      }
+      .image {
+        border-radius: 500px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 585px) {
+    table tr td{
+        font-size: 4px; 
+      }
+      .image {
+        border-radius: 500px;
+        height: 20px;
+    }
+}
